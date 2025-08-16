@@ -1,10 +1,11 @@
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/38jP26?referralCode=Z1xivh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/docling-ocr-anything?referralCode=Z1xivh)
+
 # Usage
 ## Production
-Configure `CADDY_AUTHORIZATION` in Caddy
-Call API with Header: `Authorization: Bearer <CADDY_AUTHORIZATION>`
+Call API with Header: `Authorization: Bearer &lt; CADDY.CADDY_AUTHORIZATION&gt;`
+The CADDY_AUTHORIZATION is randomly generated, get it from the Caddy's environment variable
 Visit documentation `/docs` or `/scalar`
-# UI
+## Using included UI
 Configure `DOCLING_SERVE_ENABLE_UI=1` in Docling
 Try it out with Gradio UI at `/ui`
 
