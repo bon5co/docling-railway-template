@@ -1,6 +1,11 @@
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/docling-ocr-anything?referralCode=Z1xivh)
 
 # Usage
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/docling-ocr-anything?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+**Deploy on Railway:** [Docling - OCR anything template](https://railway.com/deploy/docling-ocr-anything?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 ## Production
 Call API with Header: `Authorization: Bearer &lt; CADDY.CADDY_AUTHORIZATION&gt;`
 The CADDY_AUTHORIZATION is randomly generated, get it from the Caddy's environment variable
